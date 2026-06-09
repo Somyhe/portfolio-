@@ -372,4 +372,10 @@ footer .foot-links a:hover{color:var(--ac1)}
   .hero-btns{justify-content:center}
   .hero-p{margin-left:auto;margin-right:auto}
   footer .foot-inner{justify-content:center;text-align:center}
+  .hero{padding-top:6rem;padding-bottom:2rem}
+  .pub{flex-wrap:wrap;gap:.7rem}
+  .pub-soon{margin-left:auto}
+  .exp:hover{transform:none}
+  .timeline{padding-left:1.5rem}
+  .back-top{bottom:1.2rem;right:1.2rem;width:38px;height:38px}
 }
