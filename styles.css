@@ -135,7 +135,7 @@ section{position:relative;z-index:1;padding:8rem 2rem}
 .hero-stat-sep{width:1px;height:34px;background:var(--b3);flex-shrink:0}
 
 .hero-p{font-size:1.05rem;color:var(--t2);line-height:1.85;max-width:520px;margin-bottom:2.4rem;opacity:0;animation:hUp .9s var(--ease) .62s forwards}
-.hero-btns{display:flex;gap:.75rem;flex-wrap:wrap;opacity:0;animation:hUp .9s var(--ease) .76s forwards}
+.hero-btns{display:flex;gap:.75rem;opacity:0;animation:hUp .9s var(--ease) .76s forwards}
 @keyframes hUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
 
 .btn{display:inline-flex;align-items:center;gap:.45rem;padding:.82rem 1.7rem;border-radius:var(--r-md);font-family:var(--ff-body);font-weight:600;font-size:.88rem;cursor:pointer;transition:all .35s var(--ease);border:none;letter-spacing:.2px}
@@ -374,7 +374,7 @@ footer .foot-links a:hover{color:var(--ac1)}
   .hero-right{padding-left:0;text-align:center;padding-top:0}
   .hero-stats{justify-content:center}
   .hero-socials{justify-content:center}
-  .hero-btns{justify-content:center}
+  .hero-btns{justify-content:center;flex-wrap:wrap}
   .hero-p{margin-left:auto;margin-right:auto}
   footer .foot-inner{justify-content:center;text-align:center}
   .hero{padding-top:6rem;padding-bottom:2rem}
