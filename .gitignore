@@ -1,4 +1,8 @@
 .claude/
+.vscode/
+calendar_unpacked/
+make_calendar_pdf.py
+preview_p*.png
 *.tmp
 Thumbs.db
 .DS_Store
