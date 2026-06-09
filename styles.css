@@ -245,8 +245,8 @@ section{position:relative;z-index:1;padding:8rem 2rem}
 
 /* ── ACTIVITIES ── */
 .acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.1rem}
-.act{padding:1.8rem;cursor:default}
-.act-emo{width:52px;height:52px;border-radius:14px;background:rgba(var(--ac1r),.1);border:1px solid rgba(var(--ac1r),.18);display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;flex-shrink:0}
+.act{padding:1.8rem;padding-top:5.5rem;cursor:default;position:relative;overflow:hidden}
+.act-emo{position:absolute;top:0;left:0;width:82px;height:82px;border-radius:0 0 100% 0;background:rgba(var(--ac1r),.13);display:flex;align-items:flex-start;justify-content:flex-start;padding:20px 0 0 20px}
 .act-emo svg{width:24px;height:24px;fill:var(--ac1)}
 .act-title{font-family:var(--ff-display);font-size:1.05rem;font-style:italic;color:var(--t1);margin-bottom:.15rem}
 .act-period{font-family:var(--ff-mono);font-size:.7rem;color:var(--ac1);margin-bottom:.5rem}
