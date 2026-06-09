@@ -231,10 +231,10 @@ section{position:relative;z-index:1;padding:8rem 2rem}
 
 /* ── PUBLICATIONS ── */
 .pubs{display:flex;flex-direction:column;gap:.7rem}
-.pub{display:flex;align-items:center;gap:1.1rem;padding:1.2rem 1.5rem;cursor:pointer}
+.pub{display:flex;align-items:center;gap:1.1rem;padding:1.2rem 1.5rem;padding-left:5rem;cursor:pointer;position:relative;overflow:hidden}
 .pub:hover{transform:translateX(8px)}
 .pub:hover .pub-arrow{opacity:1;transform:translateX(4px)}
-.pub-ico{width:38px;height:38px;min-width:38px;border-radius:var(--r-sm);background:rgba(var(--ac1r),.07);display:flex;align-items:center;justify-content:center;font-size:.95rem}
+.pub-ico{position:absolute;top:0;left:0;width:62px;height:62px;border-radius:0 0 100% 0;background:rgba(var(--ac1r),.12);display:flex;align-items:flex-start;justify-content:flex-start;padding:16px 0 0 16px}
 .pub-body{flex:1}
 .pub-name{font-weight:600;font-size:.92rem;color:var(--t1);line-height:1.5}
 .pub-venue{font-family:var(--ff-mono);font-size:.7rem;color:var(--ac1);margin-top:.1rem}
@@ -360,7 +360,7 @@ footer{text-align:center;padding:2.5rem 2rem;border-top:1px solid var(--b1);colo
 [data-theme="dark"] .back-top svg{stroke:#0d0d0d}
 
 /* ── PUBLICATIONS SVG ICON ── */
-.pub-ico svg{width:18px;height:18px;stroke:var(--ac1)}
+.pub-ico svg{width:18px;height:18px;fill:var(--ac1)}
 
 /* ── FOOTER ── */
 footer .foot-inner{display:flex;justify-content:space-between;align-items:center;max-width:1120px;margin:0 auto;flex-wrap:wrap;gap:.5rem}
