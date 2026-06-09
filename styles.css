@@ -347,8 +347,8 @@ footer{text-align:center;padding:2.5rem 2rem;border-top:1px solid var(--b1);colo
 .lang-level{font-family:var(--ff-mono);font-size:.68rem;color:var(--ac1);background:rgba(var(--ac1r),.08);padding:.15rem .55rem;border-radius:var(--r-full)}
 
 /* ── TIMELINE ICONS ── */
-.tl-ico{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:var(--r-sm);background:rgba(var(--ac1r),.1);flex-shrink:0}
-.tl-ico svg{width:13px;height:13px;stroke:var(--ac1)}
+.tl-ico{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.tl-ico svg{width:15px;height:15px;stroke:var(--ac1)}
 
 /* ── BACK TO TOP ── */
 .back-top{position:fixed;bottom:2rem;right:2rem;width:42px;height:42px;border-radius:50%;background:var(--ac1);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(var(--ac1r),.35);opacity:0;transform:translateY(12px);transition:opacity .3s,transform .3s,box-shadow .3s;pointer-events:none;z-index:900}
