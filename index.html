@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumayah Alwadei — Computer Science Graduate & AI Researcher</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Portfolio of Sumayah Alwadei — Computer Science graduate with First-Class Honors, AI researcher, and published author with 4 papers in IEEE and international conferences.">
+  <meta name="author" content="Sumayah Alwadei">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Sumayah Alwadei — CS Graduate & AI Researcher">
+  <meta property="og:description" content="Computer Science graduate with First-Class Honors (GPA 4.83), AI researcher, and published author with 4 papers in IEEE and international conferences.">
+  <meta property="og:url"         content="REPLACE_WITH_YOUR_URL">
+  <meta property="og:image"       content="REPLACE_WITH_YOUR_URL/images/logo w.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Sumayah Alwadei — CS Graduate & AI Researcher">
+  <meta name="twitter:description" content="Computer Science graduate with First-Class Honors (GPA 4.83), AI researcher, and published author with 4 papers in IEEE and international conferences.">
+
+  <link rel="icon" type="image/png" href="images/logo w.png">
+  <link rel="apple-touch-icon" href="images/logo w.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+
+<!-- Background layers -->
+<div class="mesh-bg">
+  <div class="mesh-orb"></div>
+  <div class="mesh-orb"></div>
+  <div class="mesh-orb"></div>
+</div>
+<div class="dot-grid"></div>
+
+<!-- Cursor -->
+<div class="cur-dot" id="curDot"></div>
+<div class="cur-ring" id="curRing"></div>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="images/logo.png"   alt="Sumayah Alwadei" class="nav-logo-img logo-light">
+      <img src="images/logo w.png" alt="Sumayah Alwadei" class="nav-logo-img logo-dark">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Research</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="#testimonials">Recommendations</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="Sumayah Alwadei CV.pdf" class="nav-cta" target="_blank" rel="noopener">Resume</a></li>
+      <li>
+        <div class="theme-toggle" id="themeToggle" role="button" aria-label="Toggle theme">
+          <span class="theme-icon moon">🌙</span>
+          <span class="theme-icon sun">☀️</span>
+        </div>
+      </li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:.7rem">
+      <div class="theme-toggle" id="themeToggleMob" role="button" aria-label="Toggle theme" style="display:none">
+        <span class="theme-icon moon">🌙</span>
+        <span class="theme-icon sun">☀️</span>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-chip"><span class="pulse-dot"></span> Open to Opportunities · Open to Relocation</div>
+
+    <div class="hero-split">
+
+      <!-- ── LEFT: Name + Role ── -->
+      <div class="hero-left">
+        <h1 class="hero-h"><em id="heroName">Sumayah Alwadei</em></h1>
+        <p class="hero-role"><span id="heroRole">Computer Science Graduate</span></p>
+      </div>
+
+      <!-- ── RIGHT: Details ── -->
+      <div class="hero-right">
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-n">4.83</span>
+            <span class="hero-stat-l">GPA / 5.0</span>
+          </div>
+          <div class="hero-stat-sep"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-n">4</span>
+            <span class="hero-stat-l">Publications</span>
+          </div>
+          <div class="hero-stat-sep"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-n">2</span>
+            <span class="hero-stat-l">Awards</span>
+          </div>
+          <div class="hero-stat-sep"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-n">2+</span>
+            <span class="hero-stat-l">Projects</span>
+          </div>
+        </div>
+
+        <p class="hero-p">Computer Science graduate with First-Class Honors, combining broad exposure across web development, mobile apps, AI, graphic design, and academic research. A fast learner and team leader who thrives in cross-functional environments.</p>
+
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-p">Explore My Work →</a>
+          <a href="#contact" class="btn btn-s">Let's Connect</a>
+          <a href="Sumayah Alwadei CV.pdf" class="btn btn-cv" target="_blank" rel="noopener">Resume</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/sumayahalwa/" target="_blank" rel="noopener" class="social-ico" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a href="mailto:Somyhe.abdallaziz@gmail.com" class="social-ico" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  <div class="scroll-hint">
+    <div class="scroll-mouse"></div>
+    <span class="scroll-label">Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <div class="sec-head rv">
+          <span class="eyebrow">About</span>
+          <h2 class="sec-title">Building the Future<br>with Code &amp; <em>Research</em></h2>
+        </div>
+        <div class="about-prose rv">
+          <p>I'm a Computer Science graduate from Najran University with First-Class Honors, combining broad exposure across web development, mobile apps, databases, AI, graphic design, and academic research.</p>
+          <p>From leading technical teams at Google Developer Student Club to publishing research in IEEE Xplore and Springer Nature, I combine academic rigor with hands-on engineering skills to create impactful solutions. I'm a fast learner who thrives in cross-functional environments and adapts quickly to new challenges.</p>
+        </div>
+        <div class="lang-row rv">
+          <div class="lang-item">
+            <span class="lang-name">Arabic</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">English</span>
+            <span class="lang-level">Professional</span>
+          </div>
+        </div>
+      </div>
+      <div class="stats-row sg">
+        <div class="stat gcard rv">
+          <div class="num" data-count="4.83">0</div>
+          <div class="lbl">GPA — Honors</div>
+        </div>
+        <div class="stat gcard rv">
+          <div class="num" data-count="4" data-suffix="">0</div>
+          <div class="lbl">Publications</div>
+        </div>
+        <div class="stat gcard rv">
+          <div class="num" data-count="2" data-suffix="+">0</div>
+          <div class="lbl">Projects</div>
+        </div>
+        <div class="stat gcard rv">
+          <div class="num" data-count="2" data-suffix="">0</div>
+          <div class="lbl">Awards</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EXPERIENCE ═══════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Experience</span>
+      <h2 class="sec-title">Professional <em>Journey</em></h2>
+    </div>
+
+    <!-- Current Role -->
+    <div class="exp gcard rv">
+      <div class="bar"></div>
+      <div class="exp-date">2026 — Present</div>
+      <div class="exp-role">Developer &amp; Technical Consultant</div>
+      <div class="exp-co">Self-employed · Freelance</div>
+      <div class="exp-desc">Coordinate and manage website content for clients, ensuring accuracy and timely updates. Services include web development, graphic design, and technical support.</div>
+    </div>
+
+    <!-- Tamheer -->
+    <div class="exp gcard rv">
+      <div class="bar"></div>
+      <div class="exp-date">Nov 2025 — May 2026</div>
+      <div class="exp-role">Website Coordinator — Tamheer Program</div>
+      <div class="exp-co">Deanship of Admissions and Registration · Najran University</div>
+      <div class="exp-desc">Managed and updated website content for the Deanship, ensuring accuracy and alignment with academic standards. Designed posters and visual materials for deanship activities and official announcements.</div>
+    </div>
+
+    <div class="tl-section rv">
+      <h3 class="tl-heading">Training &amp; Achievements</h3>
+    </div>
+
+    <div class="timeline sg">
+      <div class="tl gcard rv">
+        <div class="exp-date">Nov 2025</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">🏆 Best Paper Award — ICEBE 2025</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Jul — Aug 2025</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">AI Summer Fellowship — AI Fields &amp; Applications</div>
+        <div style="font-size:.82rem;color:var(--t4)">King Khalid University (KKU)</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Jun — Sep 2025</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Comprehensive Arabic Language Diploma</div>
+        <div style="font-size:.82rem;color:var(--t4)">Sibawayh Arabic Language Institute</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Jun 2024</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Excel Functions &amp; Equations Training</div>
+        <div style="font-size:.82rem;color:var(--t4)">Tuwaiq Academy</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Feb — Mar 2024</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Web Application Development — Django</div>
+        <div style="font-size:.82rem;color:var(--t4)">Tuwaiq Academy</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Jan — Feb 2024</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Machine Learning Bootcamp</div>
+        <div style="font-size:.82rem;color:var(--t4)">SADAI</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">2024</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">🏅 University-level Excellence Award</div>
+        <div style="font-size:.82rem;color:var(--t4)">Najran University</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">Jan 2023</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Presenter — HTML Learning Course</div>
+        <div style="font-size:.82rem;color:var(--t4)">Programming Club · Najran University</div>
+        <div style="font-size:.82rem;color:var(--t2);margin-top:.4rem;line-height:1.65">Taught HTML to beginners over a period of 3 days.</div>
+      </div>
+      <div class="tl gcard rv">
+        <div class="exp-date">2021</div>
+        <div style="font-weight:600;color:var(--t1);font-size:.92rem">Seeds for the Future Trainee</div>
+        <div style="font-size:.82rem;color:var(--t4)">Huawei</div>
+        <div style="font-size:.82rem;color:var(--t2);margin-top:.4rem;line-height:1.65">Selected as a university representative for the Huawei Seeds for the Future 2021 program at the KSA level — 18+ hours of exclusive courses on 5G, AI, and cloud technologies, learning from industry experts and collaborating on human-centered technical projects.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EDUCATION ═══════════ -->
+<section id="education">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Education</span>
+      <h2 class="sec-title">Academic <em>Background</em></h2>
+    </div>
+    <div class="edu gcard rv">
+      <div class="bar"></div>
+      <div class="edu-dates">Sep 2019 — Jan 2024</div>
+      <div class="edu-deg">Bachelor of Computer Science</div>
+      <div class="edu-uni">Najran University</div>
+      <div class="edu-gpa">✦ GPA: 4.83 / 5.0 — First-Class Honors</div>
+      <div class="edu-proj">
+        <strong>Graduation Project:</strong> Aydi — An AI-powered educational application for Arabic Sign Language, designed to help children learn and communicate with the deaf and hard-of-hearing community.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SKILLS ═══════════ -->
+<section id="skills">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Tech Stack</span>
+      <h2 class="sec-title">Skills &amp; <em>Technologies</em></h2>
+    </div>
+    <div class="skill-filters rv">
+      <button class="sf on" data-f="all">All</button>
+      <button class="sf" data-f="lang">Languages</button>
+      <button class="sf" data-f="tool">Frameworks &amp; Tools</button>
+      <button class="sf" data-f="domain">Domains</button>
+      <button class="sf" data-f="soft">Soft Skills</button>
+    </div>
+    <div class="chips sg">
+      <div class="chip rv" data-cat="lang">Python</div>
+      <div class="chip rv" data-cat="lang">Java</div>
+      <div class="chip rv" data-cat="lang">JavaScript</div>
+      <div class="chip rv" data-cat="lang">HTML / CSS</div>
+      <div class="chip rv" data-cat="lang">SQL</div>
+      <div class="chip rv" data-cat="lang">C++</div>
+      <div class="chip rv" data-cat="tool">Django</div>
+      <div class="chip rv" data-cat="tool">Bootstrap</div>
+      <div class="chip rv" data-cat="tool">Flutter</div>
+      <div class="chip rv" data-cat="tool">React</div>
+      <div class="chip rv" data-cat="tool">TensorFlow</div>
+      <div class="chip rv" data-cat="tool">PyTorch</div>
+      <div class="chip rv" data-cat="tool">Firebase</div>
+      <div class="chip rv" data-cat="tool">Git</div>
+      <div class="chip rv" data-cat="tool">Docker</div>
+      <div class="chip rv" data-cat="tool">Photoshop</div>
+      <div class="chip rv" data-cat="tool">Illustrator</div>
+      <div class="chip rv" data-cat="tool">Excel</div>
+      <div class="chip rv" data-cat="domain">Machine Learning</div>
+      <div class="chip rv" data-cat="domain">Computer Vision</div>
+      <div class="chip rv" data-cat="domain">NLP</div>
+      <div class="chip rv" data-cat="domain">Web Development</div>
+      <div class="chip rv" data-cat="domain">Mobile Development</div>
+      <div class="chip rv" data-cat="domain">Data Analysis</div>
+      <div class="chip rv" data-cat="domain">Database Design</div>
+      <div class="chip rv" data-cat="domain">System Analysis &amp; Design</div>
+      <div class="chip rv" data-cat="domain">Academic Research</div>
+      <div class="chip rv" data-cat="domain">Sign Language AI</div>
+      <div class="chip rv" data-cat="soft">Leadership &amp; Team Management</div>
+      <div class="chip rv" data-cat="soft">Rapid Learning</div>
+      <div class="chip rv" data-cat="soft">Report Writing</div>
+      <div class="chip rv" data-cat="soft">Problem Solving</div>
+      <div class="chip rv" data-cat="soft">Communication</div>
+      <div class="chip rv" data-cat="soft">Planning &amp; Organization</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section id="projects">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Projects</span>
+      <h2 class="sec-title">What I've <em>Built</em></h2>
+    </div>
+
+    <div class="proj-stack">
+      <!-- Aydi -->
+      <div class="proj gcard rv">
+        <div class="crsl" id="crsl-aydi">
+          <div class="crsl-track">
+            <div class="crsl-slide"><img src="images/Poster 1.png" alt="Aydi App — App Mockup"></div>
+            <div class="crsl-slide"><img src="images/Poster 2.png" alt="Aydi App — Sign Language Learning"></div>
+            <div class="crsl-slide"><img src="images/Poster 3.png" alt="Aydi App — Visual Identity"></div>
+          </div>
+          <button class="crsl-btn prev" onclick="cMove('crsl-aydi',-1)">‹</button>
+          <button class="crsl-btn next" onclick="cMove('crsl-aydi',1)">›</button>
+          <div class="crsl-dots">
+            <button class="crsl-pip on" onclick="cGo('crsl-aydi',0)"></button>
+            <button class="crsl-pip" onclick="cGo('crsl-aydi',1)"></button>
+            <button class="crsl-pip" onclick="cGo('crsl-aydi',2)"></button>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tag">Graduation Project</div>
+          <h3 class="proj-name">Aydi | أيدي</h3>
+          <p class="proj-desc">An AI-powered educational app that teaches Arabic Sign Language to children, helping them communicate with the deaf community. Features an interactive learning environment with an AI game that predicts sign language letters in real-time using computer vision.</p>
+          <div class="pills"><span>AI / ML</span><span>Computer Vision</span><span>Flutter</span><span>TensorFlow</span></div>
+        </div>
+      </div>
+
+      <!-- MobileZone -->
+      <div class="proj gcard rv">
+        <div class="crsl" id="crsl-mz">
+          <div class="crsl-track">
+            <div class="crsl-slide"><img src="images/4.png" alt="MobileZone — Homepage"></div>
+            <div class="crsl-slide"><img src="images/5.png" alt="MobileZone — Product Listing"></div>
+            <div class="crsl-slide"><img src="images/6.png" alt="MobileZone — Dashboard"></div>
+          </div>
+          <button class="crsl-btn prev" onclick="cMove('crsl-mz',-1)">‹</button>
+          <button class="crsl-btn next" onclick="cMove('crsl-mz',1)">›</button>
+          <div class="crsl-dots">
+            <button class="crsl-pip on" onclick="cGo('crsl-mz',0)"></button>
+            <button class="crsl-pip" onclick="cGo('crsl-mz',1)"></button>
+            <button class="crsl-pip" onclick="cGo('crsl-mz',2)"></button>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tag">Web Development</div>
+          <h3 class="proj-name">MobileZone</h3>
+          <p class="proj-desc">A comprehensive web application built with Django demonstrating full-stack proficiency — HTTP request handling, database management, authentication systems, and dynamic content rendering as part of the Tuwaiq Academy curriculum.</p>
+          <div class="proj-links">
+            <a href="https://github.com/Somyhe/E-Commirce" target="_blank" rel="noopener" class="proj-link">
+              <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+          <div class="pills"><span>Django</span><span>Python</span><span>SQL</span><span>Bootstrap</span><span>Auth</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PUBLICATIONS ═══════════ -->
+<section id="publications">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Research</span>
+      <h2 class="sec-title"><em>Publications</em></h2>
+    </div>
+
+    <div class="pubs sg">
+      <a href="https://ieeexplore.ieee.org/document/10067855/" target="_blank" rel="noopener" class="pub gcard rv">
+        <div class="pub-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="pub-body">
+          <div class="pub-name">Cryptographic Algorithms to Secure IoT Devices: A Survey</div>
+          <div class="pub-venue">IEEE Xplore — Published</div>
+        </div>
+        <div class="pub-arrow">→</div>
+      </a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11299334" target="_blank" rel="noopener" class="pub gcard rv">
+        <div class="pub-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="pub-body">
+          <div class="pub-name">Aydi: An AI-Powered App to Teach Saudi Sign Language</div>
+          <div class="pub-venue">IEEE Xplore — Published</div>
+        </div>
+        <div class="pub-arrow">→</div>
+      </a>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-032-23341-7_19" target="_blank" rel="noopener" class="pub gcard rv">
+        <div class="pub-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="pub-body">
+          <div class="pub-name">Context-Dependent Text-to-SQL: Landscape and Challenges</div>
+          <div class="pub-venue">Springer Nature — Published</div>
+        </div>
+        <div class="pub-arrow">→</div>
+      </a>
+      <div class="pub gcard rv pub-pending">
+        <div class="pub-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="pub-body">
+          <div class="pub-name">Impact of Hyperparameters on Learning and Prediction in CNNs for Facial Emotion Recognition</div>
+          <div class="pub-venue">Accepted — AIS 2026</div>
+        </div>
+        <span class="pub-soon">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ACTIVITIES ═══════════ -->
+<section id="activities">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Activities</span>
+      <h2 class="sec-title">Extracurricular <em>Involvement</em></h2>
+    </div>
+
+    <div class="acts sg">
+      <div class="act gcard rv">
+        <div class="act-emo">🚀</div>
+        <div class="act-title">Technical Team Leader</div>
+        <div class="act-period">2023 — 2024</div>
+        <div class="act-desc">Led the technical team at Google Developer Student Club (Sep 2023 – Jun 2024), organizing workshops, hackathons, and technical sessions to support students in building real-world tech skills.</div>
+      </div>
+      <div class="act gcard rv">
+        <div class="act-emo">💻</div>
+        <div class="act-title">Manager, Trainer &amp; Graphic Designer</div>
+        <div class="act-period">2022 — 2023</div>
+        <div class="act-desc">Managed operations, delivered training, and created visual content for the Programming Club at Najran University.</div>
+      </div>
+      <div class="act gcard rv">
+        <div class="act-emo">📢</div>
+        <div class="act-title">Workshop &amp; Paper at NCCC</div>
+        <div class="act-period">2022</div>
+        <div class="act-desc">Attended a scientific workshop and published a research paper at the National Computing Colleges Conference.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TESTIMONIALS ═══════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="sec-head rv">
+      <span class="eyebrow">Recommendations</span>
+      <h2 class="sec-title">What They <em>Say</em></h2>
+    </div>
+    <div class="testimonials sg">
+
+      <div class="testi gcard rv">
+        <div class="testi-mark">"</div>
+        <p class="testi-quote">What stood out was her ability to work independently once given direction, requiring minimal supervision.</p>
+        <div class="testi-author">
+          <div class="testi-name">Dr. Mohammed Hassan Asiri</div>
+          <div class="testi-role">Director of Technical Affairs · Najran University</div>
+        </div>
+      </div>
+
+      <div class="testi gcard rv">
+        <div class="testi-mark">"</div>
+        <p class="testi-quote">She is equipped with the skills, dedication, and passion required to make a significant impact.</p>
+        <div class="testi-author">
+          <div class="testi-name">Muzun Kulayb</div>
+          <div class="testi-role">Lecturer & Vice Head of CS Department · Najran University</div>
+        </div>
+      </div>
+
+      <div class="testi gcard rv">
+        <div class="testi-mark">"</div>
+        <p class="testi-quote">Her passion for technology and research aligns perfectly with the innovative spirit of your team.</p>
+        <div class="testi-author">
+          <div class="testi-name">Abdulwahab Alazeb, Ph.D.</div>
+          <div class="testi-role">Assistant Professor · Najran University</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="sec-head rv">
+        <span class="eyebrow">Contact</span>
+        <h2 class="sec-title">Let's Build Something <em>Together</em></h2>
+      </div>
+      <p class="contact-text rv">I'm open to new opportunities and relocation. Whether it's a role, a collaboration, or just a conversation — I'd love to hear from you.</p>
+      <div class="contact-row rv">
+        <a href="mailto:Somyhe.abdallaziz@gmail.com" class="cpill gcard">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Somyhe.abdallaziz@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/sumayahalwa/" target="_blank" rel="noopener" class="cpill gcard">
+          <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <p>&copy; <span id="year"></span> Sumayah Alwadei</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/sumayahalwa/" target="_blank" rel="noopener">LinkedIn</a>
+      <span>·</span>
+      <a href="mailto:Somyhe.abdallaziz@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
