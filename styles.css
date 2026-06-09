@@ -246,7 +246,8 @@ section{position:relative;z-index:1;padding:8rem 2rem}
 /* ── ACTIVITIES ── */
 .acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.1rem}
 .act{padding:1.8rem;cursor:default}
-.act-emo{font-size:1.8rem;margin-bottom:.9rem}
+.act-emo{margin-bottom:.9rem}
+.act-emo svg{width:28px;height:28px;fill:var(--ac1)}
 .act-title{font-family:var(--ff-display);font-size:1.05rem;font-style:italic;color:var(--t1);margin-bottom:.15rem}
 .act-period{font-family:var(--ff-mono);font-size:.7rem;color:var(--ac1);margin-bottom:.5rem}
 .act-desc{font-size:.85rem;color:var(--t2);line-height:1.75}
