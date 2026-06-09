@@ -371,13 +371,14 @@ footer .foot-links a:hover{color:var(--ac1)}
 @media(max-width:960px){
   .hero-split{grid-template-columns:1fr;gap:3rem}
   .hero-left{padding-right:0;border-right:none;border-bottom:1px solid var(--b2);padding-bottom:2.5rem;text-align:center}
-  .hero-right{padding-left:0;text-align:center}
+  .hero-right{padding-left:0;text-align:center;padding-top:0}
   .hero-stats{justify-content:center}
   .hero-socials{justify-content:center}
   .hero-btns{justify-content:center}
   .hero-p{margin-left:auto;margin-right:auto}
   footer .foot-inner{justify-content:center;text-align:center}
   .hero{padding-top:6rem;padding-bottom:2rem}
+  .scroll-hint{display:none}
   .pub{flex-wrap:wrap;gap:.7rem}
   .pub-soon{margin-left:auto}
   .exp:hover{transform:none}
